@@ -1,0 +1,800 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--tertiary);
+}
+
+/* root varible */
+:root {
+    --bg-color: #e2e2e2;
+    --primary: #1c1c1c;
+    --secondary: #e24806;
+    --tertiary: #f4f4f4;
+    --fourth: #a7a7a7;
+    --linear-background: linear-gradient(45deg, rgba(0, 0, 0, .65), rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.54));
+}
+
+
+.container {
+    max-width: 1180px;
+    height: auto;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+/* Button CSS */
+.btn-primary {
+    width: 150px;
+    height: 40px;
+    font-size: 0.9rem;
+    background-color: #37a0dd;
+    color: var(--tertiary);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-primary1 {
+    width: 150px;
+    height: 40px;
+    font-size: 0.9rem;
+    background-color: #37a0dd;
+    outline: none;
+    border: none;
+    color: var(--tertiary);
+    border-radius: 20px;
+}
+
+.btn-secondary {
+    width: 150px;
+    height: 40px;
+    font-size: 0.9rem;
+    background-color: transparent;
+    color: var(--tertiary);
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+/* Header Section CSS */
+.main-header {
+    width: 100%;
+    height: 100vh;
+    background-image: url('./assets/background.png');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    flex-direction: column;
+   
+}
+
+.nav-logo {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.main-nav {
+    justify-content: space-around;
+    padding: 1.8rem;
+}
+
+.menu-bar {
+    width: 350px;
+    justify-content: space-between;
+}
+
+.toggle {
+    display: none;
+    font-size: 30px;
+}
+
+
+/* left section css */
+.hero-section {
+    position: relative;
+    width: 100%;
+    height: auto;
+
+}
+
+.content-section {
+    width: 60%;
+    height: auto;
+    flex-direction: column;
+}
+
+.text-heading {
+    color: var(--tertiary);
+    font-size: 3.5rem;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.text-para {
+    font-size: 1rem;
+    color: var(--tertiary);
+    margin-top: 20px;
+}
+
+.group-btn {
+    justify-content: center;
+    margin: 20px;
+    gap: 10px;
+}
+
+.form-section {
+    position: absolute;
+    top: 30px;
+    right: 200px;
+    width: 20%;
+    height: auto;
+    border-radius: 10px;
+    background: white;
+}
+
+.form-heading {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form-section form {
+    width: 100%;
+    height: auto;
+    margin-left: 40px;
+    padding-top: 10px;
+}
+
+.input_group {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    column-gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.input_box {
+    width: 100%;
+    position: relative;
+}
+
+.form-section .label {
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: var(--primary);
+    display: flex;
+    padding: 0.5rem 0rem;
+}
+
+.form-section input {
+    width: 70%;
+    height: 35px;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    background-color: #fdf9f9;
+}
+
+.input_box i {
+    position: absolute;
+    left: 150px;
+    padding-top: 10px;
+    font-size: 0.8rem;
+
+}
+
+.btn_book {
+    width: 190px;
+    margin-block: 10px 30px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/* Product Section Css */
+.product_section {
+    width: 100%;
+    height: auto;
+    padding: 60px 50px;
+
+}
+
+.text_content {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    row-gap: 0.65rem;
+    justify-content: center;
+}
+
+.P_heading {
+    font-size: 2rem;
+    color: #1c1c1c;
+    letter-spacing: 0.09rem;
+}
+
+.para {
+    font-size: 0.8rem;
+    text-align: center;
+    color: #7d7676;
+}
+
+/* Product Box CSS */
+.product_box {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.product_header {
+    width: 250px;
+    height: auto;
+    border: 1px solid #a7d0eb;
+    border-radius: 10px;
+    margin-top: 70px;
+}
+
+.product_heading {
+    width: 100%;
+    height: 15vh;
+    background-color: #96ceee;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: relative;
+    padding: 20px;
+    border: none;
+    outline: none;
+}
+
+.product_heading span {
+    width: 15%;
+    height: 7vh;
+    background-color: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.product_heading i {
+    position: absolute;
+    top: 15px;
+    left: 8px;
+    color: #37a0dd;
+}
+
+.product_title {
+    justify-content: center;
+    padding-left: 50px;
+    font-size: 0.9rem;
+    color: #ffffff;
+}
+
+.desc {
+    width: 100%;
+    font-size: 0.85rem;
+    color: #999696;
+    margin: 20px;
+}
+
+.desc li {
+    padding: 5px 0px;
+}
+
+.btn-more {
+    width: auto;
+    height: 30px;
+    outline: none;
+    border: none;
+    color: #37a0dd;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/* Testimonial_section  CSS*/
+.testimonial_section {
+    width: 100%;
+    height: auto;
+    background-color: #e8e8e842;
+    margin-top: 20px;
+}
+
+.testimonial_heading {
+    margin-top: 30px;
+}
+
+.testo {
+    margin-top: 80px;
+}
+
+.testimonial {
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.testimonial_box {
+    width: 270px;
+    height: auto;
+    background-color: #fff;
+    border: 1px solid #9e9c9c;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+    outline: none;
+    border-radius: 5px;
+    margin-bottom: 80px;
+    padding-block: 15px;
+    margin: 60px 20px;
+}
+
+.icon {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.testimonial_box i {
+    color: #e6e616;
+    font-size: 1.2rem;
+}
+
+.test_desc {
+    font-size: 1rem;
+    padding: 20px;
+    color: #999696;
+    font-weight: 500;
+}
+
+.user_img {
+    margin-inline: 25px;
+    margin-bottom: 20px;
+    width: 60px;
+    height: 60px;
+}
+
+/* FAQ Section CSS */
+
+.faq_section {
+    width: 100%;
+    height: auto;
+    margin-top: 70px;
+}
+
+.faq_content {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.faq_heading {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #302c2c;
+    letter-spacing: 0.09rem;
+}
+
+.f_para {
+    font-size: 1.0rem;
+    text-align: center;
+    color: #7d7676;
+}
+
+.faq_question {
+    margin: 60px 40px;
+    width: 100%;
+    height: auto;
+    position: relative;
+    justify-content: center;
+    flex-wrap: wrapy;
+}
+
+.para_faq {
+    font-size: 0.7rem;
+    color: #a7a7a7;
+}
+
+.ques_content {
+    width: auto;
+    height: auto;
+    width: 300px;
+    height: auto;
+    padding: 20px 40px;
+    position: relative;
+    margin: 0px 40px;
+}
+
+.chev {
+    position: absolute;
+    color: #37a0dd;
+    top: 20px;
+    left: 10px;
+}
+
+.faq_title {
+    font-size: 1.0rem;
+    font-weight: 500;
+    text-align: left;
+}
+
+.para_faq {
+    font-size: 0.9rem;
+    color: #999696;
+    text-align: start;
+}
+
+
+/* Pricing Box CSS */
+.price_section {
+    width: 100vw;
+    height: auto;
+    background-color: #e8e8e842;
+    padding-block: 60px;
+}
+
+.price_heading {
+    justify-content: center;
+    flex-direction: column;
+}
+
+.price_title {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.price_para {
+    font-size: 0.8rem;
+    text-align: center;
+    color: #7d7676;
+    padding-bottom: 20px;
+}
+
+.price_container {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+
+.price_box {
+    width: 240px;
+    height: auto;
+    background-color: #ffffff;
+    border: 1px solid #37a0dd;
+    border-radius: 5px;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.content_box {
+    padding-left: 15px;
+}
+
+.content_box h3 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+span {
+    color: #37a0dd;
+    position: relative;
+}
+
+.price_icon {
+    justify-content: center;
+}
+
+.icons {
+    font-size: 0.9rem;
+    position: absolute;
+    font-weight: 600;
+    top: 0px;
+    left: 90px;
+}
+
+/* Dark CSS */
+.dark {
+    background-color: #071A3EF5;
+    color: #ffffff;  
+    margin-block: 20px; 
+}
+
+.dark_head {
+    padding-top: 50px;
+}
+
+.darkpara {
+    color: #eaf3f8;    
+    font-size: 0.7rem;
+    text-align: center;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.i_dark {
+    font-size: 0.9rem;
+    position: absolute;
+    font-weight: 600;
+    top: 0px;
+    left: 52%;
+}
+
+.ninety_title {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.premium{
+    font-size: 0.9rem;
+    position: absolute;
+    font-weight: 600;
+    top: 0px;
+    left: 52%;
+}
+
+span p {
+    padding-left: 15px;
+    font-size: 0.6rem;
+
+}
+
+.price_desc {
+    color: #1c1c1c;
+    font-size: 0.8rem;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.price_box_desc {
+    width: 100%;
+    position: relative;
+}
+
+.price_text {
+    width: 100%;
+    position: absolute;
+    top: 10px;
+    left: 40px;
+}
+
+.icon_img {
+    width: 40px;
+    height: 40px;
+    float: inline-start;
+}
+
+.price_h {
+    font-size: 0.77rem;
+    position: absolute;
+    top: 5px;
+    left: 0px;
+    font-weight: 600;
+    color: #7d7676;
+}
+
+.price_btn {
+    margin-block: 20px;
+    margin-left: 30px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.dark_btn {
+    margin-block: 40px;
+}
+/* Get in Touch Section */
+
+.get_section {
+    width: 100%;
+    height: auto;
+    background-color: #13274F;
+    padding: 100px;
+    color: white;
+    padding-left: 20px;
+}
+
+.get_box {
+    justify-content: space-around;
+}
+
+.get_title {
+    font-size: 2rem;
+}
+
+.get_para {
+    font-size: 0.6rem;
+    color: #a7a7a7;
+}
+
+.form_box {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    background: white;
+}
+
+.form_box input {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding: 0px 130px 0px 15px;
+    font-size: 1rem;
+}
+
+.form_box button {
+    outline: none;
+    border: none;
+    padding: 10.5px 20px;
+    font-size: 1rem;
+    background: #37a0dd;
+    color: #ffffff;
+    position: absolute;
+    left: 70%;
+    top: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/* Footer section CSS */
+
+footer {
+    padding-block: 80px;
+}
+
+.footer_link {
+    margin-top: 10px;
+}
+
+.link-column {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.links {
+    color: #1c1c1c;
+    font-size: 1rem;
+}
+
+.footer_section {
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 0px 160px;
+    flex-wrap: wrap;
+}
+
+.about_title {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.about_para {
+    color: #1c1c1c;
+    font-size: 0.8rem;
+    padding-top: 20px;
+    font-weight: 500;
+}
+
+.social_media_icon {
+    padding-top: 20px;
+    color: #37a0dd;
+    font-size: 1.0rem;
+}
+
+.social_media_icon i {
+    padding-left: 10px;
+}
+
+
+/* Subfooter */
+.sub_footer {
+    background-color: #e8e8e842;
+    color: #1c1c1c;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: auto;
+    padding: 20px;
+}
+
+
+/* Media Query */
+
+@media screen and (max-width: 1200px) {
+  
+    .main-header {
+        width: 100%;
+        height: 70vh;
+    }
+
+    .hero-section {
+        width: 100%;
+        height: auto;
+        position: relative;  
+    }
+
+    .form-section {
+        width: 25%; 
+        position: absolute;
+        left: 65%;  
+    }    
+
+    .btn_book {
+        width: 210px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+ 
+
+    .hero-section {
+        width: 100%;
+        height: auto;
+    }
+
+    .form-section {
+        width: 25%; 
+        
+    }    
+
+    .btn_book {
+        width: 100px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* max-sm	@media not all and (min-width: 640px) { ... }
+max-md	@media not all and (min-width: 768px) { ... }
+max-lg	@media not all and (min-width: 1024px) { ... }
+max-xl	@media not all and (min-width: 1280px) { ... }
+max-2xl	@media not all and (min-width: 1536px) { ... } */

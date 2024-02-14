@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>BIKE LANDING PAGE</title>
+</head>
+
+<body>
+    <!-- Navbar Goes HERE -->
+    <nav class="w-full h-20 border-b-2 flex justify-between items-center px-4 md:px-4">
+        <div class="w-18 h-18 md:w-24 py-5">
+            <img class="md:mx-4" src="./assets/logo.png" alt="Logo Image">
+        </div>
+
+        <ul class="md:flex text-sm font-semibold hidden relative">
+            <li class="mx-[35px] cursor-pointer ">PRODUCTS
+                <svg class="absolute top-1 left-28 w-2 h-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <path
+                        d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
+                </svg></i>
+            </li>
+            <li class="mx-[35px] cursor-pointer ">GALLERY</li>
+            <li class="mx-[35px] cursor-pointer ">CONTACT</li>
+        </ul>
+
+        <div class="mx-5 hidden md:block">
+            <button class="border-1 outline-none h-12 w-24 text-sm font-semibold shadow-sm">LOG IN</button>
+            <button
+                class="border w-24 h-12 text-white text-sm font-semibold rounded-md shadow-md outline-none bg-[#42454a]">SIGN
+                UP</button>
+        </div>
+        <!-- humberg Icon -->
+        <div class="md:hidden ">
+            <a class="text-4xl" href="#">&#8801;</a>
+        </div>
+    </nav>
+    <!-- NAVBAR ENDS HERE -->
+
+    <!--header Section start here  -->
+    <header
+        class="w-full h-auto flex flex-col flex-wrap text-center items-center md:flex-row md:flex-nowrap md:text-start md:items-start">
+        <div class="w-full h-auto font-sans">
+            <p class="text-2xl p-8 md:text-5xl md:mt-10 text-[#42454a]">LET'S RIDE <br />
+                <span class="text-4xl md:text-5xl text-[#42454a] font-bold">THE FUTURE.</span>
+            </p>
+            <div class="h-1 md:w-72 border-b-4 mx-10 border-[#42454a]"></div>
+            <p class="text-md  font-semibold md:text-2xl md:px-8 text-[#42454a] px-10 py-4">Simple and sleek design
+                with <br /> users in mind.</p>
+
+            <div class=" md:py-15 my-4 md:px-8 flex justify-around flex-wrap">
+                <div class="flex md:mx-1 md:items-center my-3 md:pr-24">
+                    <span class="w-10 h-10 border-1 text-xs bg-gray-700 ">
+                        <i class="fa-solid fa-right-long my-3 mx-3 text-white h-2 w-4"></i></span>
+                    <h1 class="text-sm font-bold text-gray-800 px-4 py-2">Buy now</h1>
+                </div>
+
+                <div class="md:w-22 md:h-16 flex justify-between gap-3 md:pr-48">
+                    <p class="text-gray-600 text-[0.7rem] font-semibold font-serif">Watch our<br /> video how <br /> it
+                        works</p>
+                    <img class="w-12 h-auto md:w-20 md:h-auto" src="./assets/header play button.png" alt="">
+                </div>
+
+            </div>
+        </div>
+
+        <div class="w-full h-auto">
+            <img class="md:mt-10" src="./assets/header image.png" alt="">
+
+            <div class="flex items-center flex-wrap justify-center md:ml-44">
+                <img class="w-12 h-8 md:w-36 md:h-20 md:mx-10" src="./assets/01.png" alt="">
+                <div class="border border-[#45424a] rounded-l-full w-10 h-8 border-r-0 my-3"><i
+                        class="fa-solid fa-chevron-left text-[0.6rem] mx-4"></i></div>
+                <div class="border border-[#42454a] rounded-r-full w-10 h-8 border-r-1"><i
+                        class="fa-solid fa-chevron-right text-[0.6rem] mx-4"></i></div>
+            </div>
+        </div>
+    </header>
+    <!--header Section end here  -->
+
+    <!-- small card Section start here -->
+    <div class="w-full h-auto flex justify-between flex-col md:flex-row items-center flex-wrap">
+        <div class="border-t-2 w-48 md:w-32 h-auto bg-white shadow-lg border-violet-50 outline-none m-12 items-center">
+            <p class="text-sm font-bold text-[#45424a] pb-2 text-center py-4"><span
+                    class="font-bold text-3xl text-[#45424a] py-8 px-2">105</span>lbs</p>
+            <p class="text-sm text-[#45424a] text-center pb-5">Net Weight</p>
+
+        </div>
+
+        <div class="border-t-2 w-48 md:w-32 h-auto bg-white shadow-lg border-violet-50 outline-none m-12 items-center">
+            <p class="text-sm font-bold text-[#45424a] pb-2 text-center py-4"><span
+                    class="font-bold text-3xl text-[#45424a] py-8 px-2">26</span>mph</p>
+            <p class="text-xs text-[#45424a] text-center pb-5">Top Speed</p>
+
+        </div>
+
+        <div class="border-t-2 w-48 md:w-32 h-auto bg-white shadow-lg border-violet-50 outline-none m-12 items-center">
+            <p class="text-sm font-bold text-[#45424a] pb-2 text-center py-4"><span
+                    class="font-bold text-3xl text-[#45424a] py-8 px-2">38</span>miles</p>
+            <p class="text-xs text-[#45424a] text-center pb-5">Max Range</p>
+
+        </div>
+
+        <div class="border-t-2 w-48 md:w-32 h-auto bg-white shadow-lg border-violet-50 outline-none m-12 items-center">
+            <p class="text-sm font-bold text-[#45424a] pb-2 text-center py-4"><span
+                    class="font-bold text-3xl text-[#45424a] py-8 px-2">89</span>nm</p>
+            <p class="text-xs text-[#45424a] text-center pb-5">Max Torques</p>
+
+        </div>
+
+        <div class="border-t-2 w-48 md:w-32 h-auto bg-white shadow-lg border-violet-50 outline-none m-12 items-center">
+            <p class="text-sm font-bold text-[#45424a] pb-2 text-center py-4"><span
+                    class="font-bold text-3xl text-[#45424a] py-8 px-2">22%</span>slope</p>
+            <p class="text-xs text-[#45424a] text-center pb-5">Hill Climbing</p>
+
+        </div>
+
+        <div class="border-t-2 w-48 md:w-32 h-auto bg-white shadow-lg border-violet-50 outline-none m-12 items-center">
+            <p class="text-sm font-bold text-[#45424a] pb-2 text-center py-4"><span
+                    class="font-bold text-3xl text-[#45424a] py-8 px-2">2x</span></p>
+            <p class="text-xs text-[#45424a] text-center pb-5">Hydralic Disc Brakes</p>
+
+        </div>
+    </div>
+    <!-- small card Section end here -->
+
+    <!-- Product information start here -->
+    <div class="w-100 h-auto flex flex-wrap flex-col items-center text-center mt-5">
+        <div class="w-full h-auto flex items-center flex-col">
+            <h1 class="text-2xl font-bold text-[#45424a] md:text-4xl">Product Information</h1>
+            <p class="text-[#45424a] text-center text-sm font-semibold py-5 md:font-sans">Our Scooter has following
+                unique design and technology features:</p>
+        </div>
+
+        <div class="w-full flex justify-evenly flex-wrap md:flex-nowrap ">
+            <div class="h-auto md:w-[55%] overflow-hidden ">
+                <img class="w-120 h-auto md:w-[100%] md:h-[80%] object-contain"
+                    src="./assets/product information image.png" alt="">
+            </div>
+            <div class="w-auto md:w-[45%] h-auto md:mt-20 md:mb-12 px-10">
+
+                <div class="flex flex-row items-center md:mb-3">
+                    <img class="w-8 h-8 ml-6 mt-5" src="./assets/Icon.png" alt="">
+                    <p class="text-sm md:text-lg px-3 pt-4 text-start text-gray-600">Lightweight aircraft grade
+                        aluminium frame</p>
+                </div>
+                <div class="flex flex-row items-center md:mb-3">
+                    <img class="w-8 h-8 ml-6 my-4 " src="./assets/Icon.png" alt="">
+                    <p class="text-sm md:text-lg px-3 text-start text-gray-600">Car grade lithium battery</p>
+                </div>
+                <div class="flex flex-row items-center md:mb-3">
+                    <img class="w-8 h-8 ml-6 my-2 " src="./assets/Icon.png" alt="">
+                    <p class="text-sm md:text-lg px-3 text-start text-gray-600">Self-balanced</p>
+                </div>
+                <div class="flex flex-row items-center md:mb-3">
+                    <img class="w-8 h-8 ml-6 my-2 " src="./assets/Icon.png" alt="">
+                    <p class="text-sm md:text-lg px-3 text-start text-gray-600">Plug n Play</p>
+                </div>
+                <div class="flex flex-row items-center md:mb-3">
+                    <img class="w-8 h-8 ml-6 my-2 " src="./assets/Icon.png" alt="">
+                    <p class="text-sm md:text-lg px-3 text-start text-gray-600">Quick release adapter</p>
+                </div>
+                <div class="flex flex-row items-center md:mb-3">
+                    <img class="w-8 h-8 ml-6 my-2 " src="./assets/Icon.png" alt="">
+                    <p class="text-sm md:text-lg px-3 text-start text-gray-600">RFID key card</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Product information end here -->
+
+
+    <!-- High Efficiency start here -->
+    <div class="w-full h-auto flex justify-center overflow-hidden my-16">
+        <img class="object-cover w-auto h-auto lg:w-[70%] lg:h-auto  " src="./assets/high efficiency motor.png" alt="">
+    </div>
+    <!-- High Efficiency end here -->
+
+    <!-- Accesories start here -->
+    <div class="w-100 h-auto flex flex-wrap flex-col items-center text-center my-8">
+        <div class="w-full h-auto flex flex-wrap items-center flex-col">
+            <h1 class="text-2xl font-bold text-[#45424a] md:text-4xl">Multiple Accesories</h1>
+            <p class="text-[#45424a] text-center text-sm font-semibold py-5 md:font-sans">There are multiple modes
+                for the scooter for your multiple needs:</p>
+        </div>
+
+        <div class="w-full flex flex-wrap justify-evenly">
+            <div class="md:w-[50%] h-auto md:mt-16 px-7">
+                <h1 class="text-2xl md:text-3xl md:text-start mx-6 font-bold text-[#45424a] ">Golf Bag Rock</h1>
+                <div class="flex flex-row items-center">
+                    <img class="w-8 h-8 ml-6 mt-5  " src="./assets/Icon.png" alt="">
+                    <p class="text-sm md:text-lg px-3 pt-4 text-start text-gray-500">Material : Aluminium alloy</p>
+                </div>
+                <div class="flex flex-row items-center">
+                    <img class="w-8 h-8 ml-6 my-2 " src="./assets/Icon.png" alt="">
+                    <p class="text-sm md:text-lg px-3 text-start text-gray-500">Color : Black</p>
+                </div>
+                <div class="flex flex-row items-center">
+                    <img class="w-8 h-8 ml-6 my-2 " src="./assets/Icon.png" alt="">
+                    <p class="text-sm md:text-lg px-3 text-start text-gray-500">Capacity : 45lbs</p>
+                </div>
+                <div class="flex flex-row items-center">
+                    <img class="w-8 h-8 ml-6 my-2 " src="./assets/Icon.png" alt="">
+                    <p class="text-sm md:text-lg px-3 text-start text-gray-500">Ease : Steady & adjustable</p>
+                </div>
+
+            </div>
+            <div class="w-[50%] mt-4">
+                <img class="w-[90%]" src="./assets/golf bag rock.png" alt="">
+            </div>
+        </div>
+        <div class="w-full flex flex-row-reverse flex-wrap justify-evenly mt-12">
+            <div class="md:w-[40%] h-auto my-8 md:mt-20 md:px-7">
+                <h1 class="text-2xl md:text-3xl md:text-start mx-6 font-bold text-[#45424a] ">Shopping Rock</h1>
+                <div class="flex flex-row items-center">
+                    <img class="w-8 h-8 ml-6 mt-5  " src="./assets/Icon.png" alt="">
+                    <p class="text-sm md:text-lg px-3 pt-4 text-start text-gray-500">Material : Aluminium alloy</p>
+                </div>
+                <div class="flex flex-row items-center">
+                    <img class="w-8 h-8 ml-6 my-2 " src="./assets/Icon.png" alt="">
+                    <p class="text-sm md:text-lg px-3 text-start text-gray-500">Color : Black</p>
+                </div>
+                <div class="flex flex-row items-center">
+                    <img class="w-8 h-8 ml-6 my-2 " src="./assets/Icon.png" alt="">
+                    <p class="text-sm md:text-lg px-3 text-start text-gray-500">Capacity : 45lbs</p>
+                </div>
+                <div class="flex flex-row items-center ">
+                    <img class="w-8 h-8 ml-6 mt-4  " src="./assets/Icon.png" alt="">
+                    <p class="text-sm md:text-lg px-3 text-start text-gray-500">Ease : Steady & adjustable</p>
+                </div>
+
+            </div>
+            <div class="w-[60%]">
+                <img class="object-contain " src="./assets/shopping rack.png" alt="">
+            </div>
+        </div>
+        <div class="border-2 border-gray-600 rounded-md h-16 my-12">
+            <h1 class="text-gray-800 text-lg md:text-2xl font-semibold px-8 py-4">More Accesories Coming Soon</h1>
+        </div>
+    </div>
+    <!-- Accesories end here -->
+
+    <!-- Gallery Section Start here -->
+    <div class="w-100 h-auto flex flex-wrap flex-col items-center text-center my-8">
+        <div class="w-full h-auto flex flex-wrap items-center flex-col">
+            <h1 class="text-2xl font-bold text-[#45424a] md:text-4xl">Gallery</h1>
+            <p class="text-[#45424a] text-center text-sm font-semibold py-5 md:font-sans">View gallery of our products
+                and make yourself satisfied with our creation.</p>
+        </div>
+        <div class="w-full h-auto flex flex-row flex-wrap justify-center md:flex-nowrap">
+            <div class="md:w-[50%] h-auto flex flex-col md:ml-20">
+                <div class="flex mt-16 md:mt-40 mx-8 md:ml-20 relative">
+                    <p class="md:text-2xl text-gray-700 font-bold absolute top-2 left-2 md:left-3 md:top-4">Scooter</p>
+                    <img class="md:w-[100%] h-auto object-cover object-center overflow-hidden " src="./assets/gallery scooter.png" alt="">
+                </div>
+
+                <div class=" flex mt-5 mx-10 flex-col">
+                    <p
+                        class="md:text-2xl text-gray-700 font-semibold mt-4 border-2 border-gray-600 w-68 md:w-96 md:h-16 py-3 rounded-md">
+                        Battery Image</p>
+                    <p
+                        class="md:text-2xl text-gray-700 font-semibold mt-4 border-2 border-gray-600 w-68 md:w-96 md:h-16 py-3 rounded-md">
+                        Spare Parts Images</p>
+                    <p
+                        class="md:text-2xl text-gray-700 font-semibold mt-4 border-2 border-gray-600 w-68 md:w-96 md:h-16 py-3 rounded-md">
+                        Charging Cable Images</p>
+                </div>
+            </div>
+
+            <div class="md:w-[50%] h-auto flex flex-col flex-wrap justify-center mx-12 my-12">
+                <div class="relative ">
+                    <p class="md:text-2xl text-gray-700 font-bold absolute top-2 left-2 md:left-3 md:top-4">Build
+                        Quality</p>
+                    <img class="w-[100%] md:w-[100%] h-auto object-cover object-center overflow-hidden"
+                        src="./assets/gallery built quality.png" alt="">
+                </div>
+
+                <div class="relative my-8">
+                    <p class="md:text-2xl text-gray-700 font-bold absolute top-2 left-2 md:left-3 md:top-4">Parts</p>
+                    <img class="w-[100%] md:w-[100%] top-10 h-auto object-cover object-center overflow-hidden"
+                        src="./assets/gallery parts.png" alt="">
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--Gallery Section end here   -->
+
+    <!-- Colors Section start here -->
+    <div class="w-full h-auto flex flex-wrap my-20">
+        <div class="w-full h-auto flex flex-wrap items-center flex-col">
+            <h1 class="text-2xl font-bold text-[#45424a] md:text-4xl">Colors</h1>
+            <p class="text-[#45424a] text-center text-sm font-semibold py-5 md:font-sans">Checkout our products colors.
+            </p>
+        </div>
+
+        <div class="w-full h-auto relative my-10">
+            <img class="w-full object-contain" src="./assets/gallery scooter.png" alt="">
+            <div class="flex absolute top-[90%] left-[2%]">
+                <img class="w-32 h-28 md:w-60 md:h-52 md:mx-3 relative" src="./assets/color-scooter-1.png" alt="">
+                <span
+                    class="absolute text-2xl md:text-4xl font-bold py-0 text-white top-[55%] left-[14%] md:top-[58%] md:left-[12%] opacity-60">01</span>
+                <img class="w-32 h-28 md:w-60 md:h-52 md:mx-3" src="./assets/color-scooter-2.png" alt="">
+                <span
+                    class="absolute text-2xl md:text-4xl font-bold py-0 text-white top-[55%] left-[38%] md:top-[58%] md:left-[40%] opacity-60">02</span>
+                <img class="w-32 h-28 md:w-60 md:h-52 md:mx-3" src="./assets/color-scooter-3.png" alt="">
+                <span
+                    class="absolute text-2xl  md:text-4xl font-bold py-0 text-white top-[55%] left-[65%] md:top-[58%] md:left-[65%] opacity-60">03</span>
+                <img class="w-32 h-28 md:w-60 md:h-52 md:mx-3" src="./assets/color-scooter-4.png" alt="">
+                <span
+                    class="absolute text-2xl md:text-4xl font-bold py-0 text-white top-[55%] left-[91%] md:top-[58%] md:left-[90%] opacity-60">04</span>
+            </div>
+        </div>
+    </div>
+    <!-- Colors Section end here -->
+
+    <!-- Testimonial section start here -->
+    <div class="w-full h-auto flex flex-wrap flex-col  items-center text-center mt-52 bg-gray-100">
+        <div class="w-full h-auto flex flex-wrap  justify-center flex-col">
+            <h1 class="text-2xl font-bold text-[#45424a] md:text-4xl mt-12">Testimonials</h1>
+        </div> 
+            <div class="w-full h-auto my-8 flex-wrap md:flex-row flex-col justify-center items-center flex">
+                <div class="border w-80 bg-white my-4 mx-8 h-auto shadow-md py-4 px-8 text-start">
+                    <div class="flex justify-center mt-8 mb-5">
+                        <i class="fa-solid fa-star text-[#EEC707]"></i>
+                        <i class="fa-solid fa-star text-[#EEC707]"></i>
+                        <i class="fa-solid fa-star text-[#EEC707]"></i>
+                        <i class="fa-solid fa-star text-[#EEC707]"></i>
+                        <i class="fa-solid fa-star text-[#EEC707]"></i>
+                    </div>
+                    <p class="md:text-[1rem] text-center text-gray-600 font-semibold">Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit.
+                        Repellat nemo molestiae consectetur aut eos voluptatem et
+                        officiis, aliquam quibusdam velit?
+                    </p>
+
+                    <div class="mt-8 mb-3 flex ">
+                        <img class="w-auto h-auto" src="./assets/serhiy hipskyy.png" alt="">
+                        <p class="text-xs font-semibold text-gray-700 px-4"><span class="text-sm font-semibold">Serhiy
+                                Hipskyy</span>
+                            <br />CEO Universal
+                        </p>
+                    </div>
+                </div>
+
+                <div class="border-2 w-80 border-gray-300 my-4 mx-8 h-auto py-2 px-8 text-start">
+                    <div class="flex justify-center mt-6 mb-6">
+                        <i class="fa-solid fa-star text-[#EEC707]"></i>
+                        <i class="fa-solid fa-star text-[#EEC707]"></i>
+                        <i class="fa-solid fa-star text-[#EEC707]"></i>
+                        <i class="fa-solid fa-star text-[#EEC707]"></i>
+                        <i class="fa-solid fa-star text-[#EEC707]"></i>
+                    </div>
+                    <p class="text-[1rem] text-center text-gray-600 font-semibold">Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit.
+                        Repellat nemo molestiae consectetur aut eos voluptatem et
+                        officiis, aliquam quibusdam velit?
+                    </p>
+
+                    <div class="my-8 flex ">
+                        <img class="w-auto h-auto" src="./assets/Justus Menke.png" alt="">
+                        <p class="text-xs font-semibold text-gray-700 px-4"><span class="text-sm font-semibold">Justus
+                                Menke</span>
+                            <br />CEO Universal
+                        </p>
+                    </div>
+                </div>
+
+                <div class="border-2 w-80 border-gray-300 my-4 mx-8 h-auto py-2 px-8 text-start">
+                    <div class="flex justify-center mt-6 mb-6">
+                        <i class="fa-solid fa-star text-[#EEC707]"></i>
+                        <i class="fa-solid fa-star text-[#EEC707]"></i>
+                        <i class="fa-solid fa-star text-[#EEC707]"></i>
+                        <i class="fa-solid fa-star text-[#EEC707]"></i>
+                        <i class="fa-solid fa-star text-[#EEC707]"></i>
+                    </div>
+                    <p class="text-[1rem] text-center text-gray-600 font-semibold">Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit.
+                        Repellat nemo molestiae consectetur aut eos voluptatem et
+                        officiis, aliquam quibusdam velit?
+                    </p>
+
+                    <div class="my-8 flex ">
+                        <img class="w-auto h-auto" src="./assets/Britain Eriksen.png" alt="">
+                        <p class="text-xs font-semibold text-gray-700 px-4"><span class="text-sm font-semibold">Britain
+                                Eriksen</span>
+                            <br />CEO Universal
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-full h-auto flex justify-center flex-wrap items-center mb-16">
+                <div class="border border-gray-500 rounded-full px-3 py-2 mx-4">
+                    <i class="fa-solid fa-arrow-left text-xs w-5 h-4"></i>
+                </div>
+                <div class="border border-gray-500 bg-gray-700 rounded-full px-3 py-2">
+                    <i class="fa-solid fa-arrow-right text-xs w-5 h-5 text-white"></i>
+                </div>
+            </div>
+        </div>
+    <!-- Testimonial section end here -->
+
+    <!-- Newsletter section start here -->
+    <div class="w-100 h-auto flex flex-wrap flex-col items-center text-center mt-24 mb-4">
+        <div class="w-full h-auto flex flex-wrap items-center flex-col">
+            <h1 class="text-2xl font-bold text-[#45424a] md:text-4xl">Subscribe to Newsletters</h1>
+            <p class="text-[#45424a] text-center text-sm font-semibold py-5 md:font-sans">Subscribe to our newsletter to
+                get amazing offers in future.</p>
+        </div>
+        <div class="w-full h-auto flex justify-center flex-wrap my-8">
+            <div class=" flex mx-2">
+                <input class="h-16 md:w-72 border border-gray-100 rounded-lg px-2" type="email" placeholder="Enter your email">
+            </div>
+            <div class="border bg-gray-700 rounded-md w-36 h-16">
+                <P class="text-white font-semibold text-xl py-4">Get Start</P>
+            </div>
+        </div>
+    </div>
+    <!-- Newsletter section ends here -->
+
+    <!-- Footer Section start here -->
+    <footer class="w-full h-auto text-white pt-8 flex flex-col md:flex-row flex-wrap items-center relative justify-between md:mt-20 bg-[#555555]">
+        <div class="md:w-[40%] ">
+            <img class="md:w-[40%] absolute md:bottom-0 object-cover overflow-hidden " src="./assets/footer scooter.png"
+                alt="">
+        </div>
+
+        <div class="w-[60%] flex justify-around items-center flex-col md:flex-row flex-wrap">
+            <div class="">
+                <h1 class="text-xl font-bold py-6">About</h1>
+                <p class="font-semibold">Company</p>
+                <p class="py-3 font-semibold">Teams</p>
+                <p class="py-3 font-semibold">Profile</p>
+                <p class="py-3 font-semibold">Careers</p>
+            </div>
+
+            <div class="mb-12">
+                <h1 class="text-xl font-bold py-6">Resources</h1>
+                <p class="font-semibold ">Contact</p>
+                <p class="py-3 font-semibold">Application</p>
+                <p class="py-3 font-semibold">FAQ Features</p>
+
+            </div>
+
+            <div class="">
+                <h1 class="text-xl font-bold py-4">Legals</h1>
+                <p class="py-3 font-semibold">Copyright Privacy</p>
+                <p class="py-3 font-semibold">Policy Disclaimer</p>
+                <p class="py-3 font-semibold">Terms</p>
+
+                <div class="my-4">
+                    <i class="fa-brands fa-facebook text-2xl px-2"></i>
+                    <i class="fa-brands fa-twitter text-2xl px-2"></i>
+                    <i class="fa-brands fa-instagram text-2xl px-2"></i>
+                </div>
+
+            </div>
+        </div>
+
+        <!--Sub footer section start here  -->
+        <div class="w-full h-auto flex justify-center">
+            <p class="text-white text-lg pt-8 pb-4"> &#169; Copyright 2021. All rights reserved.</p>
+        </div>
+        <!-- Sub footer section ends here -->
+        
+    </footer>
+    <!-- footer section ends here -->
+
+</body>
+
+</html>

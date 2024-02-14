@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;900&family=Montserrat:ital@0;1&family=New+Tegomin&family=Poppins:wght@300;400;700&family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    width: 80%;
+    padding-inline: 20px;
+    overflow: hidden;
+    margin-inline: auto;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+span {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 10px;
+    letter-spacing: 0.25px;
+    color: #000;
+}
+
+.main-nav {
+    margin-top: 40px;
+    justify-content: space-between;
+    position: relative;
+}
+
+.company-logo {
+    width: 200px;
+}
+
+.nav-links ul {
+    justify-content: end;
+    gap: 40px;
+    font-size: 1rem;
+}
+
+.nav-links .active {
+    color: orangered;
+}
+
+.nav-toggle {
+    display: none;
+}
+
+.signImg {
+    display: none;
+}
+
+.btn-primary {
+    border: 1px solid;
+    width: auto;
+    color: #fff;
+    padding: 1rem 2rem;
+    background-color: #ff5202;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.btn-secondary {
+    border: 1px solid black;
+    width: auto;
+    color: #000;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.hero-section {
+    width: 100vw;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 120px;
+    flex-wrap: wrap;
+}
+
+.left-sec {
+    width: 60vw;
+    position: relative;
+}
+
+.left-text {
+    padding: 100px 0px 30px;
+}
+
+.heading {
+    font-size: 3.5rem;
+}
+
+.left-para {
+    font-size: 1rem;
+    color: gray;
+    padding: 0px 10px;
+    border-left: 1px solid gray;
+    height: auto;
+    margin-top: 0px;
+}
+
+.btn-group {
+    gap: 20px;
+}
+
+.curve-arrow {
+    position: absolute;
+    height: 80px;
+    bottom: 0px;
+    left: 85%;
+}
+
+.right-sec {
+    width: 40vw;
+    height: auto;
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    margin-bottom: 50px;
+}
+
+.firstImage {
+    position: absolute;
+    top: 50px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.firstImage img {
+    width: 400px;
+    height: 350px;
+}
+
+.secondImage {
+    position: absolute;
+    top: 17%;
+    margin-inline: 50px;
+}
+
+.thirdImage {
+    position: absolute;
+    top: 35%;
+}
+
+.thirdImage img {
+    width: 320px;
+    height: 300px;
+}
+
+.circle {
+    position: absolute;
+    top: 65%;
+    left: 85%;
+}
+
+.greenArrow {
+    position: absolute;
+    top: 70%;
+    left: 55%;
+}
+
+.orgArrow {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+}
+
+.iconImg {
+    width: 20px;
+    height: 20px;
+}
+
+/* BOTTOM SECTION CSS */
+footer{
+    background-color: #28254e;
+    color: #fff;
+}
+
+.bottom-section {
+    justify-content: space-between;
+    margin: auto ;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    height: 100%;
+}
+
+h2 {
+    letter-spacing: 0.08rem;
+}
+
+.aboutPara {
+    font-size: 0.8rem;
+    color: #b3afaf;
+    padding: 10px 0;
+}
+
+.para {
+    font-size: 0.6rem;
+    color: #b3afaf;
+    padding: 10px 0;
+}
+
+.img1 {
+    height: 35px;
+    width: 35px;
+    background-color: #3dcf92;
+    border-radius: 10px;
+
+}
+
+.vec-img {
+    height: 32px;
+    padding: 7px 8px;
+}
+
+.img2 {
+    height: 35px;
+    width: 35px;
+    background-color: #eb6416;
+    border-radius: 10px;
+}
+
+.img3 {
+    height: 35px;
+    width: 35px;
+    background-color: #2573da;
+    border-radius: 10px;
+}
+
+.text {
+    padding-top: 20px;
+}
+
+/* Responsive Css */
+@media screen and (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+
+    .nav-toggle {
+        display: block;
+        margin: ;
+    }
+
+    .signImg {
+        display: block;
+        margin-right: 50px;
+    }
+
+    .hide{
+        display: none;
+    }
+
+    .hero-section {
+        margin-bottom: 70px;
+        margin-left: 15px;
+        overflow: hidden;
+    }
+
+    .learn {
+        display: none;
+    }
+
+    /* .left-sec {
+        width: 45vw;
+    } */
+
+    .right-sec {  
+        position: absolute;
+        top: 18%;
+        left: 54%;
+    }
+
+    .circle {
+        position: absolute;
+        top: 55%;
+        left: 85%;
+    }
+    
+    .greenArrow {
+        position: absolute;
+        top: 55%;
+        left: 55%;
+    }
+    
+    .orgArrow {
+        position: absolute;
+        top: 22%;
+        left: 50%;
+    }
+    
+    .iconImg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .curve-arrow {
+        position: absolute;
+        height: 50px;
+        bottom: 0px;
+        left: 70%;
+        top: 90%;
+      }
+}
+
+
+@media screen and (max-width: 568px) {
+    
+     .hero-section {
+        width: 100% ;
+        flex-direction: column;
+    }
+
+    .left-sec {
+        width: 100%;
+    }
+
+    .right-sec {
+        width: 100%;
+    }
+
+    .circle {
+        position: absolute;
+        top: 55%;
+        left: 85%;
+    }
+    
+    .greenArrow {
+        position: absolute;
+        top: 55%;
+        left: 55%;
+    }
+    
+    .orgArrow {
+        position: absolute;
+        top: 22%;
+        left: 50%;
+    }
+    
+    .iconImg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .curve-arrow {
+        position: absolute;
+        height: 50px;
+        bottom: 0px;
+        left: 70%;
+        top: 90%;
+      }
+
+      .bottom-section {
+        display: flex;
+        flex-wrap: wrap;
+            
+      }
+} 
